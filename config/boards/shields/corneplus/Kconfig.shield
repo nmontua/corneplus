@@ -1,8 +1,6 @@
-# Copyright (c) 2020 Pete Johanson
-# SPDX-License-Identifier: MIT
+if SHIELD_MY_BOARD
 
-config SHIELD_CORNE_LEFT
-	def_bool $(shields_list_contains,corne_left)
+config ZMK_KEYBOARD_NAME
+    default "corneplus"
 
-config SHIELD_CORNE_RIGHT
-	def_bool $(shields_list_contains,corne_right)
+endif
