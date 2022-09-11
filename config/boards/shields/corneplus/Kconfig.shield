@@ -1,6 +1,5 @@
-if SHIELD_MY_BOARD
+config SHIELD_MY_BOARD_LEFT
+    def_bool $(shields_list_contains,corneplus_right)
 
-config ZMK_KEYBOARD_NAME
-    default "corneplus"
-
-endif
+config SHIELD_MY_BOARD_RIGHT
+    def_bool $(shields_list_contains,corneplus_right)
