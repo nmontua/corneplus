@@ -1,5 +1,0 @@
-config SHIELD_CORNEPLUS_LEFT
-    def_bool $(shields_list_contains,corneplus_right)
-
-config SHIELD_CORNEPLUS_RIGHT
-    def_bool $(shields_list_contains,corneplus_right)
